@@ -1,0 +1,25 @@
+.App{
+  max-width: 100vw;
+  overflow : hidden;
+}
+.form-outline .form-control.active~.form-label, .form-outline .form-control:focus~.form-label, .inpactive .form-control~.form-label {
+  background-image: linear-gradient(180deg, #fff, #fff 10%, transparent 90%, transparent);
+  padding-top: 0 !important;
+  -webkit-transform: translateY(-0.7rem) translateY(0.1rem) scale(.8) !important;
+  transform: translateY(-0.7rem) translateY(0.1rem) scale(.8) !important;
+  z-index: 1;
+}
+
+.signinup .form-outline .form-control.active~.form-label, .form-outline .form-control:focus~.form-label, .inpactive .form-control~.form-label {
+  background-image: linear-gradient(180deg, transparent, white 20%, transparent 90%, transparent);
+  padding-top: 0 !important; 
+}
+
+.dropdown > .btn{
+  position: relative;
+}
+.dropdown-toggle:after{
+  position: absolute;
+  right : 0;
+  margin-right : 10px;
+}

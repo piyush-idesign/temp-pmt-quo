@@ -1,0 +1,47 @@
+.pathshower {
+  padding: 10px;
+  margin: 40px 0px 16px 0px;
+  margin-top: 0px;
+}
+
+.pathshower a {
+  margin: 2px;
+  color: #888888;
+  font-weight: 500;
+}
+
+.pathshower a:last-child {
+  color: #174e86;
+  text-transform: capitalize;
+}
+
+@media (max-width: 770px) {
+  /* .pathshowercover{
+    display: none;
+  } */
+  .pathshower {
+    /* display: none; */
+    background: transparent;
+    overflow: hidden;
+    margin-bottom: 0px;
+
+  }
+  .pathshowercover a:not(:last-child) {
+    display: none;
+  }
+  .pathshower a:last-child {
+    /* margin-left: -19px; */
+    font-size: 20px;
+    position: relative;
+  }
+  .pathshower a:last-child::before {
+    content: "<";
+    font-size: 20px;
+    position: absolute;
+    height: 26px;
+    width: 14px;
+    overflow: hidden;
+    background-color: white;
+  }
+
+}

@@ -1,0 +1,32 @@
+.qli {
+  padding: 0 !important;
+}
+.qli li {
+  margin-top: 12px;
+  font-size: 15px;
+}
+
+.locations span {
+  margin-right: 10px;
+  color: #fff;
+  font-size: 13px;
+  position: relative;
+}
+.locations span::before {
+  content: "•";
+  position: absolute;
+  left: -11px;
+  top: -2px;
+}
+.locations {
+  padding-left: 0 !important;
+}
+
+.locations span a {
+  color: #fff;
+  text-decoration: inherit;
+}
+
+.footer {
+  padding: 0 !important;
+}
